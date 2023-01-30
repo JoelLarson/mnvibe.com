@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="venue">
+    <h2>{{ page.title }}</h2>
+
+    {{ page.description | markdownify }}
+
+    {{ content }}
+
+    <h2>Hosted Shows</h2>
+
+    <ul>
+    {% for show in site.shows %}
+        <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

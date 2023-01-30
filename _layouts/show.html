@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="show">
+    <h2>{{ page.title }}</h2>
+
+    Promoted by: {{ page.promoters | join: ", " }}
+
+    {{ page.description | markdownify }}
+
+    <p>Price: {{ page.price }}</p>
+
+    <p>Restrictions: {{ page.restrictions | join: ", " }}</p>
+
+    <h3>Set Times</h3>
+
+    <ul>
+        {% for slot in page.slots %}
+        <li>
+            <b>{{ slot.time }}</b>
+            <p>{{ slot.performing_as }}</p>
+            <p>{{ slot.artists | join: ", " }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p>Genres: <b>{{ page.genres | join: ", " }}</b></p>
+
+    <h3>Links</h3>
+
+    <ul>
+        {% for link in page.links %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

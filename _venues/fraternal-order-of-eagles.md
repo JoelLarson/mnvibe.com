@@ -1,7 +1,7 @@
 ---
 name: Fraternal Order of Eagles
 description: >-
-  ## Our Mission Statement
+  ### Our Mission Statement
 
   The Fraternal Order of Eagles is an international charitable non-profit organization uniting fraternally
   in the spirit of liberty, truth, justice, and equality, to make human life more desirable by lessening
@@ -12,7 +12,7 @@ description: >-
   Fundraisers are conducted for eight major charities, including kidney, heart, diabetes, cancer
   and spinal cord injury funds, a children's fund, memorial foundation and the Golden Eagle Fund.
 
-  ## Our History
+  ### Our History
 
   The F.O.E. was founded in February, 1898 by six theatre owners gathered
   in a Seattle shipyard to discuss a musician's strike. After addressing the matter,
@@ -28,3 +28,4 @@ address: >
   Minneapolis, MN 55406
   United States
 profile_image_url: "https://mnvibe.com/sites/default/files/styles/max_650x650/public/2022-03/eagles-aerie-34-logo-tn.jpg?itok=S7e8wTZ3"
+---

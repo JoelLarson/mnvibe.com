@@ -32,28 +32,27 @@ timezone: America/Chicago
 #   - vendor/ruby/
 
 collections:
-  articles:
   artists:
     output: true
-    sort_by: name
+    sort_by: title
   labels:
     output: true
-    sort_by: name
+    sort_by: title
   mixes:
     output: true
     sort_by: date_released
   promoters:
     output: true
-    sort_by: name
+    sort_by: title
   releases:
     output: true
     sort_by: date_released
   shows:
     output: true
-    sort_by: name
+    sort_by: title
   venues:
     output: true
-    sort_by: name
+    sort_by: title
 
 defaults:
   - scope:
