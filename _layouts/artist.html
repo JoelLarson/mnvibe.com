@@ -11,7 +11,7 @@ layout: default
     {% if artist.links %}
     <ul>
     {% for link in artist.links %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}

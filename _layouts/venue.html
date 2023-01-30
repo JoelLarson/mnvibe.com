@@ -13,7 +13,7 @@ layout: default
 
     <ul>
     {% for show in site.shows %}
-        <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+        <li><a href="{{ show.url | relative_url }}">{{ show.title }}</a></li>
     {% endfor %}
     </ul>
 </div>
