@@ -1,0 +1,93 @@
+title: mnVibe
+description: >- # this means to ignore newlines until "baseurl:"
+  MNVIBE DESCRIPTION
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+timezone: America/Chicago
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+collections:
+  articles:
+  artists:
+    output: true
+    sort_by: name
+  labels:
+    output: true
+    sort_by: name
+  mixes:
+    output: true
+    sort_by: date_released
+  promoters:
+    output: true
+    sort_by: name
+  releases:
+    output: true
+    sort_by: date_released
+  shows:
+    output: true
+    sort_by: name
+  venues:
+    output: true
+    sort_by: name
+
+defaults:
+  - scope:
+      path: ""
+      type: artists
+    values:
+      layout: artist
+  - scope:
+      path: ""
+      type: labels
+    values:
+      layout: label
+  - scope:
+      path: ""
+      type: mixes
+    values:
+      layout: mix
+  - scope:
+      path: ""
+      type: promoters
+    values:
+      layout: promoter
+  - scope:
+      path: ""
+      type: releases
+    values:
+      layout: release
+  - scope:
+      path: ""
+      type: shows
+    values:
+      layout: show
+  - scope:
+      path: ""
+      type: venues
+    values:
+      layout: venue

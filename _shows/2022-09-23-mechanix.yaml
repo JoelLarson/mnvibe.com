@@ -1,0 +1,27 @@
+---
+name: Mechanix ft Necormancer b2b AИTITHESIS
+description: >-
+  Jungle and Drum and Bass. 21+ $15 to enter
+time: 2022-09-23T20:30-0600/PT4H
+price: $15
+restrictions:
+  - 21+
+promoters:
+  - mechanix
+slots:
+  - time: 22:30/PT2H
+    performing_as: Necromancer b2b AИTITHESIS
+    artists:
+      - antithesis
+      - necromancer
+  - time: 21:30/PT1H
+    artists:
+      - blazz
+  - time: 20:30/PT1H
+    artists:
+      - fervor
+genres:
+  - Drum & Bass
+links:
+  - name: Facebook Event
+    url: https://www.facebook.com/events/922690085800237
